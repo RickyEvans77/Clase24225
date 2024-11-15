@@ -1,0 +1,52 @@
+footer {
+    width: 100%;  /* O el ancho que desees, por ejemplo, 90% */
+    padding: 15px; /* Ajusta el relleno según tus preferencias */
+    box-sizing: border-box; /* Asegura que el relleno no afecte el tamaño total del elemento */
+     /* Cambia el color de fondo según tus preferencias */
+    color: white; /* Cambia el color del texto según tus preferencias */
+}
+
+
+.margin-cards{
+    margin-top: 80px;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+
+.message-container {
+    display: none;
+    background-color: red;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+
+.dancing {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+    background-image: url('img/Fondo1.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir toda el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed;
+    color: white;
+  }
+  
